@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurugNgumpet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView1"
+            android:src="@drawable/curug5"
+            tools:ignore="contentDescription"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Curug Ngumpet"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Profil :"
+            android:textColor="#6b95ff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/profil1"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Harga Tiket Wisata :"
+            android:textColor="#6b95ff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Tiket masuk TNGHS  : Rp.15.000/motor, Rp.30.000/Mini Bus"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Tiket masuk Curug Ngumpet : Rp. 7.500/orang."
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Lokasi :"
+            android:textColor="#6b95ff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Taman Nasional Gunung Halimun Salak , Desa Gunungsari, Kecamatan Pamijahan, Kabupaten Bogor, Propinsi Jawa Barat. "
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CurugLeuwiHejo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView1"
+            android:src="@drawable/curug_leuwihejo"
+            tools:ignore="contentDescription"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Curug Leuwi Hejo"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Profil :"
+            android:textColor="#6b95ff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Curug Leuwi Hejo nama ini berasal dari bahasa Sunda, curug berarti air terjun, leuwi berarti lembah atau bagian sungai terdalam, dan hejo yaitu hijau. Dari namanya saja, kita sudah dapat membayangkan tempat wisata tersebut terdapat sebuah kolam berwarna hijau.
+
+Ya, salah satu yang menjadi favorit di Curug Leuwi Hejo yaitu kolam di bawah air terjun sebagai tepat berenang atau bermain air. Airnya tentu saja sangat jernih dan alami selayaknya air pegunungan. Hawa udara sejuk dan air sangat dingin.ango, Desa Sindang Laya, Kecamatan Pacet, Kabupaten Cianjur, Jawa Barat. 14 Km dari pusat Kota Sukabumu melalui Jl. Selabintana (43 menit) 41 Km dari Kabupaten Cianjur melalui Jl. Nasional III (1 jam 34 menit) (perkiraan waktu tempuh jika tidak ada kendala sama sekali.) "
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Harga Tiket Wisata :"
+            android:textColor="#6b95ff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Tiket masuk Curug Leuwi Hejo:
+Rp.10.000/orang."
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Parkir : Rp. 5000/Motor, Rp. 10.000/Mobil"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Lokasi :"
+            android:textColor="#6b95ff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Kampung Wangan Cileungsi Desa Karang Tengah , Babakan Madang, Sentul, Bogor,Jawa Barat"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/template1"
+    tools:context=".Tentang">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="333dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/info"
+        tools:ignore="contentDescription"/>
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+    android:id="@+id/text1"
+    android:layout_width="322dp"
+    android:layout_height="157dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="90dp"
+    android:text="Aplikasi ini dibuat dalam rangka Penulisan Ilmiah untuk memenuhi syarat Sarjana. Aplikasi ini menyajikan tentang informasi mengenai curug atau air  terjun yang terdapat di wilayah Bogor,Jawa Barat dan juga Tips  berkunjung ke tempat wisata air terjun."
+    android:textColor="#311919"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    tools:ignore="HardcodedText" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+    android:id="@+id/textView4"
+    android:layout_width="322dp"
+    android:layout_height="75dp"
+    android:layout_below="@+id/text1"
+    android:layout_centerHorizontal="true"
+    android:text="Aplikasi  Pengenalan Sepuluh Tempat  Wisata Curug di Daerah Bogor Jawa Barat Berbasis Android"
+    android:textColor="#3a89ff"
+    android:textSize="20sp"
+    android:textStyle="italic"
+    tools:ignore="HardcodedText" />
+
+    <TextView
+    android:id="@+id/textView5"
+    android:layout_width="327dp"
+    android:layout_height="39dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="140dp"
+    android:text="Fachriza Adha , 12115330,3KA09"
+    android:textColor="#311919"
+    android:textSize="20sp"
+    tools:ignore="HardcodedText" />
+
+</RelativeLayout>

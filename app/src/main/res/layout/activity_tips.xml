@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tips">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="167dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/saran"
+        tools:ignore="contentDescription" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp">
+            
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1.Perhatikan Peraturan yang Berlaku"
+                android:textSize="20sp"
+                android:textColor="#6b84ff"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Misalnya, terdapat beberapa aturan resmi yang tidak boleh dilanggar dan harus dipatuhi oleh pengunjung air terjun, seperti dilarang membuang sampah sembarangan, dilarang kencing sembarangan, hingga dilarang mengotori aliran air dengan bahan kimia."
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="2.Perhatikan Cuaca dan Derasnya Air Terjun"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6b84ff"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sebaiknya hindari pergi ke air terjun ketika hujan karena resiko keselamatannya lebih besar akibat jalan yang licin dan membahayakan."
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="3.Pergi pada Pagi Hari"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6b84ff"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Air terjun memiliki kelebihan berupa pemandangannya yang indah, air yang masih jernih, serta kadar oksigen yang masih murni tanpa tercampur polusi. Untuk menikmati semua kelebihan tersebut, sebaiknya Anda pergi pada pagi hari, yaitu sekitar pukul 8."
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="4.Pastikan Anda Tahu Tempatnya"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6b84ff"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sebelum Anda berkunjung ke air terjun, sebaiknya Anda menggunakan peta atau lebih baik untuk bertanya pada orang yang pernah berwisata ke air terjun tujuan Anda. Ketahuilah seberapa jauh lokasinya, keamanannya, serta lamanya waktu untuk sampai hingga ke air terjun. "
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="5.Hati-Hati terhadap Binatang Liar"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6b84ff"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Umumnya, air terjun berada di dalam kawasan hutan. Oleh karena itu, air terjun masih memiliki lingkungan yang alami dan kadang binatang liar pun masih berkeliaran di sana. Oleh karena itu, Anda harus waspada selama berada di kawasan air terjun. Jangan bertingkah yang dapat mengganggu kehidupan binatang sekitar "
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="6.Sesuaikan Alas Kaki"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6b84ff"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sebaiknya gunakanlah sendal gunung ketika berwisata ke air terjun. Memang, ada beberapa orang yang kadang bisa bertahan memakai sepatu sneaker atau sendal biasa ketika di air terjun, tetapi biasanya alas kaki tersebut akan berakhir dengan kondisi basah dan tidak nyaman. "
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="7.Bawa Pakaian Ganti"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6b84ff"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pasti asyiknya dengan melakukan kegiatan berenang kan? Atau mungkin setidaknya ke air terjun untuk bermain air saja? bawalah pakaian ganti ketika Anda berwisata ke air terjun untuk mengganti baju yang basah karena dipakai selama bermain air atau berenang."
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="8.Patuhi Peraturan Warga Lokal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6b84ff"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Tidak hanya peraturan yang diterapkan oleh pihak pengelola saja yang harus Anda patuhi, peraturan warga lokal yang menyangkut kepada kepercayaan yang dianut oleh warga lokal juga harus Anda hargai dan patuhi."
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="9.Bawa Barang-Barang Penting"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6b84ff"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Misalnya, jas hujan, tas backpack, balsem untuk menghangatkan tubuh, air minum, dan lainnya."
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="10.Jangan Buang Air Sembarangan"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6b84ff"
+                tools:ignore="HardcodedText"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Jangan melakukan buang air sembarangan di kawasan air terjun. Jangan mentang-mentang air ada di sekitar Anda, Anda “menuntaskan dendam” di aliran airnya. Ingat, pengunjung air terjun tersebut bukan hanya Anda saja."
+                tools:ignore="HardcodedText"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

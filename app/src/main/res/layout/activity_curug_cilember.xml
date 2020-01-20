@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CurugCilember">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView1"
+            android:src="@drawable/curug_cilember"
+            tools:ignore="contentDescription"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Curug Cilember"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Profil :"
+            android:textColor="#6b95ff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Air terjun Cilember berada di kawasan wisata Puncak, Bogor, dan sudah berkembang menjadi lokasi wisata. Oleh karena itu, untuk menuju ke lokasi tersebut aksesnya sudah sangat mudah.Curug ini adalah sebuah air terjun yang berada di ketinggian 800 meter di atas permukaan laut, sehingga suhunya sangat sejuk dan cocok untuk menghabiskan waktu seharian.
+Air terjun ini memiliki tujuh tingkatan, yaitu Cilember 1 hingga Cilember 7. Curug yang berada di paling bawah dan dekat dengan loket masuk adalah Cilember 1, sedangkan yang paling tinggi adalah Cilember 7. Wisatawan harus melakukan perjalanan untuk mencapai curug yang paling atas, yaitu dengan berjalan kaki melewati jalanan setapak atau bebatuan."
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Harga Tiket Wisata :"
+            android:textColor="#6b95ff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Tiket Wisata  : Rp. 20.000/orang ."
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Tiket Camping : Rp. 30.000/orang ."
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Lokasi :"
+            android:textColor="#6b95ff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Jl. Raya Puncak, Cilember, Cisarua, Bogor, Jawa Barat 16750"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

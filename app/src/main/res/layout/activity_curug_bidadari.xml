@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CurugBidadari">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView1"
+        android:src="@drawable/curug_bidadari"
+        tools:ignore="contentDescription"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Curug Bidadari"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Profil :"
+        android:textColor="#6b95ff"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Curug Bidadari merupakan perpaduan antara wisata alam khas air terjun serta waterpark. Selain bisa menikmati suasana air terjun yang dipersembahkan oleh alam, kita juga bisa bermain di kolam buatan yang ada di depan air terjun. Curug Bidadari memiliki tinggi sekitar 75 meter dengan debet air yang cukup tinggi. Airnya berasal dari sebuah aliran yang berasal dari hutan lindung yang jatuh dari sebuah tebing batu. Curug Bidadari bisa dikategorikan sebagai tempat wisata keluarga. Sementara orang-orang dewasa bisa menikmati kesegaran air terjun, anak-anak bisa bermain di kolam yang ada di depannya menggunakan pelampung atau ban.
+Di kawasan curug juga ada wahanan flying fox jika kamu menginginkan sesatu yang lebih menantang. Jika lapar melanda, di sekitar air terjun sudah ada warung-warung sederhana yang bisa kita jadikan tempat untuk mengisi perut."
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Harga Tiket Wisata :"
+        android:textColor="#6b95ff"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Weekday(Senin-Jumat) : Rp. 25.000/orang"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Weekend(Sabtu-Minggu) : Rp. 40.000/orang"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lokasi :"
+        android:textColor="#6b95ff"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Jl. Sentul Paradise Park, Desa Bojong Koneng, Babakan Madang, Bogor, Jawa Barat 16810"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        tools:ignore="HardcodedText"/>
+    </LinearLayout>
+
+</ScrollView>
